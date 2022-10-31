@@ -1,0 +1,9 @@
+[book]
+authors = ["Traducción: José Miguel González Aguilera"]
+language = "es"
+multilingual = false
+src = "src"
+title = "Rust: patrones de diseño"
+
+[build]
+build-dir = "docs"

@@ -1,0 +1,1 @@
+# Nuevo tipo (Newtype)

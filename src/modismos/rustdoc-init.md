@@ -1,0 +1,1 @@
+# Inicialización fácil de documentación
