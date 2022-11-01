@@ -6,7 +6,7 @@
 - [Idiomatismos (idioms)](./idiomatismos/indice.md)
   - [El uso de tipos prestados como argumentos](./idiomatismos/coercion-de-argumentos.md)
   - [Concatenar String con `format!`](./idiomatismos/concat-format.md)
-  - [Constructor](./idiomatismos/ctor.md)
+  - [Constructores](./idiomatismos/ctor.md)
   - [El rasgo `Default`](./idiomatismos/default.md)
   - [Las colecciones son punteros inteligentes](./idiomatismos/deref.md)
   - [Finalización en destructores](./idiomatismos/dtor-finally.md)
