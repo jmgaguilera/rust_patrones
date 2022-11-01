@@ -4,7 +4,7 @@
 
 Si estás interesado en contribuir a este libro, revisa las [recomendaciones de contribución](contribuir.md).
 
-## Diseño de patrones
+## Patrones de diseño
 
 En el desarrollo de software es habitual que nos encontremos con problemas que comparten similitudes independientemente del entorno en el que aparecen. Aunque los detallas de implementación son determinantes para resolver la tarea que tengamos entre manos, podemos abstraernos de estas particularidades para encontrar aquellas prácticas habituales que se pueden aplicar de manera general.
 
