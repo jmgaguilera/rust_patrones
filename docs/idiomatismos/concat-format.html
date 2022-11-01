@@ -143,6 +143,28 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="concatenar-string-con-format"><a class="header" href="#concatenar-string-con-format">Concatenar String con format!</a></h1>
+<h2 id="descripción"><a class="header" href="#descripción">Descripción</a></h2>
+<p>Es posible construir cadenas utilizando los métodos <code>push</code> y <code>push_str</code> sobre una variable de tipo <code>mut String</code> (de tipo cadena de caracteres modificable). También se puede usar su operador <code>+</code>. Sin embargo, puede ser más conveniente usar la macro <code>format!</code>, especialmente cuando se trata de crear la cadena de caracteres con una mezcla de cadenas de caracteres literales con otras no literales.</p>
+<h2 id="ejemplo"><a class="header" href="#ejemplo">Ejemplo</a></h2>
+<pre><pre class="playground"><code class="language-rust">#![allow(unused)]
+fn main() {
+fn say_hello(name: &amp;str) -&gt; String {
+    // Podríamos construir la cadena de caracteres
+    // resultante de forma manual 
+    // let mut result = &quot;Hello &quot;.to_owned();
+    // result.push_str(name);
+    // result.push('!');
+    // result
+
+    // Pero el uso de format! es mejor.
+    format!(&quot;Hello {}!&quot;, name)
+}
+}
+</code></pre></pre>
+<h2 id="ventajas"><a class="header" href="#ventajas">Ventajas</a></h2>
+<p>El uso de <code>format!</code> suele ser la forma más sucinta y legible de combinar cadenas de caracteres.</p>
+<h2 id="desventajas"><a class="header" href="#desventajas">Desventajas</a></h2>
+<p>No es la forma más eficiente de combinar cadenas de caracteres. La forma más eficiente de combinar cadenas es usar una <code>mut String</code> sobre la que se van realizando operaciones <code>push</code> (especialmente, si se ha prerreservado el espacio necesario para la cedena de caracteres).</p>
 
                     </main>
 
